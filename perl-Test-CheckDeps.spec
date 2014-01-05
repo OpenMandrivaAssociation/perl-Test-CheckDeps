@@ -1,5 +1,5 @@
 %define upstream_name    Test-CheckDeps
-%define upstream_version 0.002
+%define upstream_version 0.010
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -9,7 +9,7 @@ Summary:	Check for presence of dependencies
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-CheckDeps-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(CPAN::Meta)
@@ -44,4 +44,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc INSTALL LICENSE META.json Changes META.yml README
 %{_mandir}/man3/*
 %{perl_vendorlib}/*
+
 
