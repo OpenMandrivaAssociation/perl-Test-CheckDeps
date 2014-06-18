@@ -1,2 +1,4 @@
+removed_sources:
+  Test-CheckDeps-0.002.tar.gz: de30637cd2ef6b26bda0a397a57a22abac4264d7
 sources:
-  "Test-CheckDeps-0.002.tar.gz": de30637cd2ef6b26bda0a397a57a22abac4264d7
+  Test-CheckDeps-0.010.tar.gz: 6005b5db861133b63aec04dcfc96868fb3677600
