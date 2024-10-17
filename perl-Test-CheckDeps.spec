@@ -9,7 +9,7 @@ Summary:	Check for presence of dependencies
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/Test/Test-CheckDeps-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
